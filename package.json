@@ -1,0 +1,32 @@
+{
+  "name": "netlify-lambda-types",
+  "version": "1.0.0",
+  "description": "Netlify Lambda typescript definitions",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseditson/netlify-lambda-types.git"
+  },
+  "keywords": [
+    "netlify",
+    "functions",
+    "lambda",
+    "typescript"
+  ],
+  "author": "Jesse Ditson <jesse.ditson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesseditson/netlify-lambda-types/issues"
+  },
+  "homepage": "https://github.com/jesseditson/netlify-lambda-types#readme",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.57",
+    "@types/node": "^14.0.14"
+  }
+}
